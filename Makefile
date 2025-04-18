@@ -41,5 +41,6 @@ re: fclean all
 
 executable: all 
 	cc test.c $(NAME)
+	make fclean
 
 .PHONY: all clean fclean re executable
